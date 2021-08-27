@@ -107,18 +107,6 @@ view: distances {
         CROSS JOIN `bigquery-public-data.ghcn_d.ghcnd_stations` stations ;;
   }
 
-  dimension: store_id {
-    type: string
-    sql: ${TABLE}.store_id ;;
-  }
-
-  dimension: station_id {
-    type: string
-    sql: ${TABLE}.station_id ;;
-  }
-
-
-
 }
 
 
