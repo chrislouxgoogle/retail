@@ -106,7 +106,9 @@ view: distances {
         FROM ${stores.SQL_TABLE_NAME} stores
         CROSS JOIN `bigquery-public-data.ghcn_d.ghcnd_stations` stations ;;
   }
+
 }
+
 
 view: store_weather {
   label: "Store Weather ⛅"
