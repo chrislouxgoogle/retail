@@ -460,7 +460,7 @@
     subtitle_text: ''
     body_text: |+
       <i class="fa fa-shopping-cart" aria-hidden="true"></i> <a
-      href="https://docs.google.com/spreadsheets/d/1mhKwRHBfroInKeao7yXUFmWHQi0-3cDJi84B0Qjn508/edit#gid=0">Calibrate Demand Forecast</a>
+      href="https://sclpoc2.cloud.looker.com/dashboards-next/9">Calibrate Demand Forecast</a>
 
       <i class="fa fa-building fa" aria-hidden="true"></i> <a href="https://sclpoc2.cloud.looker.com/dashboards-next/9">Optimize Inventory Levels</a>
 
