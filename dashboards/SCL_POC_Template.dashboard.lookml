@@ -470,22 +470,3 @@
     col: 0
     width: 6
     height: 5
-  filters:
-  - name: 'Filter by Component #:'
-    title: 'Filter by Component #:'
-    type: field_filter
-    default_value: '301'
-    allow_multiple_values: true
-    required: false
-    ui_config:
-      type: dropdown_menu
-      display: inline
-      options:
-      - '201'
-      - '244'
-      - '266'
-      - '301'
-    model: thelook
-    explore: inventory_items
-    listens_to_filters: []
-    field: inventory_items.id
